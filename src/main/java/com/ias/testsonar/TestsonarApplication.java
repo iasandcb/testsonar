@@ -15,6 +15,7 @@ public class TestsonarApplication {
 
     private void test() {
         log.info("test");
+        log.debug("debug");
     }
 
 }

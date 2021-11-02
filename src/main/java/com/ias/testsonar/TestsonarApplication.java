@@ -11,6 +11,8 @@ public class TestsonarApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestsonarApplication.class, args);
+        TestsonarApplication app = new TestsonarApplication();
+        app.test();
 	}
 
     private void test() {
